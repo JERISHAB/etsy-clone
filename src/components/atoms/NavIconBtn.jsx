@@ -1,14 +1,13 @@
 import React from 'react'
 
-const NavIconBtn = ({ logo, headName }) => {
+const NavIconBtn = ({ icon }) => {
   return (
     <>
-      <div className="flex justify-center items-center gap-1.5 hover:bg-gray-400 rounded-full px-2 py-0.5">
-        <img src={logo} alt="" className="h-4" />
-        <span className="text-xs">{headName}</span>
+      <div className="flex justify-center items-center">
+        <img src={icon} alt="" className="hover:p-2 hover:bg-blue-300 rounded-full" />
       </div>
     </>
   );
 };
 
-export default NavIconBtn
+export default NavIconBtn    
