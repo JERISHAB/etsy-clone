@@ -1,13 +1,15 @@
 
 
 import './App.css'
+import HomePage from './components/pages/HomePage'
 
 function App() {
   return (
     <>
-      etsy clone
+      <HomePage/>
     </>
   )
 }
 
-export default App
+export default App 
+       
