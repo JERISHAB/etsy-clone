@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
       <div className="flex-col">
         <Navbar />
-        <Hero/>
+        {/* <Hero/> */}
       </div>
     </>
   );

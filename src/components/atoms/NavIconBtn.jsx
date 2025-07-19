@@ -1,10 +1,14 @@
 import React from 'react'
 
-const NavIconBtn = ({ icon }) => {
+const NavIconBtn = ({ icon, border=false,}) => {
   return (
     <>
-      <div className="flex justify-center items-center">
-        <img src={icon} alt="" className="hover:p-2 hover:bg-blue-300 rounded-full" />
+      <div
+        className={` rounded-full lg:ml-0 lg:mr-6 border-box ${
+          border ? "border-2 py-[1px] px-[1px]" : ""
+        }  `}
+      >
+        <img src={icon} alt="" className={border ? `h-[18.85px]` : ""} />
       </div>
     </>
   );
