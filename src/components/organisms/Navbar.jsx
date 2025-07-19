@@ -7,11 +7,12 @@ import flag from "../../assets/images/india-flag.svg";
 import heart from "../../assets/images/heard-nav.svg";
 import gift from "../../assets/images/gift-nav.svg";
 import cart from "../../assets/images/cart-nav.svg";
+import MobSearch from "../molecules/MobSearch";
 
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between px-2.25 py-2.5 lg:mt-1 lg:justify-start lg:py-2 lg:pr-11 lg:pl-13.25">
+      <div className="flex items-center justify-between px-2.25 pt-2.5 lg:mt-1 lg:justify-start lg:py-2 lg:pr-11 lg:pl-13.25">
         <div className="flex">
           <Logo />
           <NavTextBtn icon={burgerImg} headName="Categories" view="sm" />
@@ -34,9 +35,7 @@ const Navbar = () => {
         <NavTextBtn headName="Fashion Finds" />
         <NavTextBtn headName="Registry" />
       </div>
-      <div className="flex lg:hidden">
-        
-      </div>
+      <MobSearch/>
     </>
   );
 };
