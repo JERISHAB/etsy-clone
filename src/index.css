@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+.font-g{
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+}
+
+.font-w{
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+}
