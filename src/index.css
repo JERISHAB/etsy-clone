@@ -8,3 +8,13 @@
 .font-w{
     font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
 }
+
+.curved-top {
+    clip-path: circle(farthest-side at 50% -67%);clip-path: circle(farthest-side at 50% 100%);}
+
+    
+        @media (min-width: 1024px) {
+            .curved-top {
+                clip-path: none;
+            }
+        }
