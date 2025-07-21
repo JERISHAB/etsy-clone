@@ -8,7 +8,7 @@ const NavTextBtn = ({ headName, icon, view }) => {
         view === 'sm' ? "hidden lg:flex" : ""
       } `}
     >
-      {icon && <img src={icon} alt="" className="h-4.25 mr-1.75" />}
+      {icon && <img src={icon} alt="" className={` mr-1.75 ${headName === 'Gifts'? 'h-4.5': 'h-4.25'} `} />}
 
       <span className="text-[13px] font-w">{headName}</span>
     </div>
