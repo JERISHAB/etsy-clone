@@ -113,6 +113,32 @@ export const StandoutList = [
     image:  s5 ,
   },
 ];
+export const BlogList = [
+  {
+    id: 1,
+    title: "Shopping Guides",
+    desc: "9 Comfy Throws for Cosy Autumn Vibes",
+    detail:
+      "Embrace the snuggling season with stylish throws that will warm your hearts.",
+    image: s1,
+  },
+  {
+    id: 2,
+    title: "Shopping Guides",
+    desc: "14 Beautiful Bags That Express Your Unique Style",
+    detail:
+      "Amp up your fashion game with bags that perfectly match your aesthetic.",
+    image: s2,
+  },
+  {
+    id: 3,
+    title: "Gift Ideas",
+    desc: "The Best Gift Ideas for Kids of All Ages",
+    detail:
+      "Shop the sweetest surprises for all little ones in your family–these gifts for kids will definitely earn you some brownie points.",
+    image: s3,
+  },
+];
 
 
 export const GiftsData = [

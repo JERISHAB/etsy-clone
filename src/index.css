@@ -2,6 +2,52 @@
 
 
 
+/* @font-face {
+    font-family: Graphik Webfont;
+    src: url(/assets/type/Graphik-Medium-Web.woff2)format("woff2"), url(/assets/type/Graphik-Medium-Web.woff)format("woff");
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: 100%;
+    font-display: swap;
+    ascent-override: 92%;
+    descent-override: 22%
+}
+
+@font-face {
+    font-family: Graphik Webfont;
+    src: url(/assets/type/GraphikCyr-Medium-Web.woff2)format("woff2"), url(/assets/type/GraphikCyr-Medium-Web.woff)format("woff");
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: 100%;
+    font-display: swap;
+    ascent-override: 92%;
+    descent-override: 22%;
+    unicode-range: U+4??
+}
+
+@font-face {
+    font-family: Graphik Webfont;
+    src: url(/assets/type/Graphik-Regular-Web.woff2)format("woff2"), url(/assets/type/Graphik-Regular-Web.woff)format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    ascent-override: 92%;
+    descent-override: 22%
+}
+
+@font-face {
+    font-family: Graphik Webfont;
+    src: url(/assets/type/GraphikCyr-Regular-Web.woff2)format("woff2"), url(/assets/type/GraphikCyr-Regular-Web.woff)format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    ascent-override: 92%;
+    descent-override: 22%;
+    unicode-range: U+4??
+} */
+
 
 .font-g {
     font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
