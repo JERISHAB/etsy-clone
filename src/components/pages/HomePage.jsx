@@ -6,6 +6,7 @@ import Gift from '../organisms/Gift';
 import Popular from '../organisms/Popular';
 import UniqueFinds from '../organisms/UniqueFinds';
 import Standout from '../organisms/Standout';
+import Discover from '../organisms/Discover';
 
 const HomePage = () => {
   return (
@@ -18,7 +19,8 @@ const HomePage = () => {
         <Gift />
         <Popular />
         <UniqueFinds />
-        <Standout/>
+        <Standout />
+        <Discover/>
       </div>
     </>
   );

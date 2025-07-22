@@ -35,6 +35,10 @@ import s3 from "../assets/images/stantout/s3.png";
 import s4 from "../assets/images/stantout/s4.png";
 import s5 from "../assets/images/stantout/s5.png";
 
+import d1 from "../assets/images/discover/d1.png";
+import d2 from "../assets/images/discover/d2.png";
+import d3 from "../assets/images/discover/d3.png";
+
 
 
 
@@ -55,6 +59,28 @@ export const teacherAppreciationGifts = [
     image:  apr3 ,
   },
 ];
+
+export const DiscoverList = [
+  {
+    id: 1,
+    title: "HazelCraftsStore",
+    image:  d1,
+    logo:  d1,
+  },
+  {
+    id: 2,
+    title: "MajesticMitus",
+    image: d2 ,
+    logo: d2 ,
+  },
+  {
+    id: 3,
+    title: "GUNJANGEMSEMPORIUM",
+    image:  d3 ,
+    logo:  d3 ,
+  },
+];
+
 export const StandoutList = [
   {
     id: 1,
