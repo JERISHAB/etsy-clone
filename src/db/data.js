@@ -168,18 +168,24 @@ export const UniqueListData = [
     image: f3,
     price: 9948,
     originalPrice: null,
+    c_span:3,
+    r_span:3
   },
   {
     id: 5,
     image: f5,
     price: 949,
     originalPrice: 10436,
+    c_span:2,
+    r_span:3
   },
   {
     id: 2,
     image: f2,
     price: 10362,
     originalPrice: 12953,
+    c_span:3,
+    r_span:3
   },
 
   {
@@ -187,12 +193,16 @@ export const UniqueListData = [
     image: f1,
     price: 10787,
     originalPrice: 17979,
+    c_span:4,
+    r_span:4
   },
   {
     id: 4,
     image: f4,
     price: 13368,
     originalPrice: null,
+    c_span:3,
+    r_span:4
   },
 
   {
@@ -200,5 +210,7 @@ export const UniqueListData = [
     image: f6,
     price: 7751,
     originalPrice: 9689,
+    c_span:2,
+    r_span:4
   },
 ];
