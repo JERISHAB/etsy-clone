@@ -29,6 +29,12 @@ import f4 from "../assets/images/unique-finds/f4.png";
 import f5 from "../assets/images/unique-finds/f5.png";
 import f6 from "../assets/images/unique-finds/f6.png";
 
+import s1 from "../assets/images/stantout/s1.png";
+import s2 from "../assets/images/stantout/s2.png";
+import s3 from "../assets/images/stantout/s3.png";
+import s4 from "../assets/images/stantout/s4.png";
+import s5 from "../assets/images/stantout/s5.png";
+
 
 
 
@@ -47,6 +53,38 @@ export const teacherAppreciationGifts = [
     id: 3,
     title: "Relaxation Gifts",
     image:  apr3 ,
+  },
+];
+export const StandoutList = [
+  {
+    id: 1,
+    title: "Weddings",
+    discount: 'up to 30% off',
+    image:  s1,
+  },
+  {
+    id: 2,
+    title: "Personalised Finds",
+    discount: 'up to 30% off',
+    image: s2 ,
+  },
+  {
+    id: 3,
+    title: "Outdoor Games",
+    discount: 'up to 30% off',
+    image:  s3 ,
+  },
+  {
+    id: 4,
+    title: "Summer Style",
+    discount: 'up to 30% off',
+    image:  s4 ,
+  },
+  {
+    id: 5,
+    title: "Birthday Gifts",
+    discount: 'up to 30% off',
+    image:  s5 ,
   },
 ];
 

@@ -5,6 +5,7 @@ import ProductList from '../organisms/ProductList';
 import Gift from '../organisms/Gift';
 import Popular from '../organisms/Popular';
 import UniqueFinds from '../organisms/UniqueFinds';
+import Standout from '../organisms/Standout';
 
 const HomePage = () => {
   return (
@@ -16,7 +17,8 @@ const HomePage = () => {
         <ProductList />
         <Gift />
         <Popular />
-        <UniqueFinds/>
+        <UniqueFinds />
+        <Standout/>
       </div>
     </>
   );
