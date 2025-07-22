@@ -8,6 +8,7 @@ import UniqueFinds from '../organisms/UniqueFinds';
 import Standout from '../organisms/Standout';
 import Discover from '../organisms/Discover';
 import Blogs from '../organisms/Blogs';
+import WhatsEtsy from '../organisms/WhatsEtsy';
 
 const HomePage = () => {
   return (
@@ -22,7 +23,8 @@ const HomePage = () => {
         <UniqueFinds />
         <Standout />
         <Discover />
-        <Blogs/>
+        <Blogs />
+        <WhatsEtsy/>
       </div>
     </>
   );
