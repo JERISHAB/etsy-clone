@@ -15,12 +15,19 @@ import g3 from "../assets/images/gifts/g3.png";
 import g4 from "../assets/images/gifts/g4.png";
 import g5 from "../assets/images/gifts/g5.png";
 
-import u1 from "../assets/images/unique-finds/u1.png";
-import u2 from "../assets/images/unique-finds/u2.png";
-import u3 from "../assets/images/unique-finds/u3.png";
-import u4 from "../assets/images/unique-finds/u4.png";
-import u5 from "../assets/images/unique-finds/u5.png";
-import u6 from "../assets/images/unique-finds/u6.png";
+import u1 from "../assets/images/popular/u1.png";
+import u2 from "../assets/images/popular/u2.png";
+import u3 from "../assets/images/popular/u3.png";
+import u4 from "../assets/images/popular/u4.png";
+import u5 from "../assets/images/popular/u5.png";
+import u6 from "../assets/images/popular/u6.png";
+
+import f1 from "../assets/images/unique-finds/f1.png";
+import f2 from "../assets/images/unique-finds/f2.png";
+import f3 from "../assets/images/unique-finds/f3.png";
+import f4 from "../assets/images/unique-finds/f4.png";
+import f5 from "../assets/images/unique-finds/f5.png";
+import f6 from "../assets/images/unique-finds/f6.png";
 
 
 
@@ -75,7 +82,7 @@ export const GiftsData = [
 export const PopularList = [
   {
     id: 1,
-    title: "gender-neutral adult t-shirts",
+    title: "Gender-neutral adult t-shirts",
     image: u1,
   },
   {
@@ -104,6 +111,7 @@ export const PopularList = [
     image: u6,
   },
 ];
+
 
 
 export const ProductListData = [
@@ -150,5 +158,47 @@ export const ProductListData = [
     image: p5,
     price: 949,
     originalPrice: null,
+  },
+];
+
+
+export const UniqueListData = [
+  {
+    id: 3,
+    image: f3,
+    price: 9948,
+    originalPrice: null,
+  },
+  {
+    id: 5,
+    image: f5,
+    price: 949,
+    originalPrice: 10436,
+  },
+  {
+    id: 2,
+    image: f2,
+    price: 10362,
+    originalPrice: 12953,
+  },
+
+  {
+    id: 1,
+    image: f1,
+    price: 10787,
+    originalPrice: 17979,
+  },
+  {
+    id: 4,
+    image: f4,
+    price: 13368,
+    originalPrice: null,
+  },
+
+  {
+    id: 0,
+    image: f6,
+    price: 7751,
+    originalPrice: 9689,
   },
 ];

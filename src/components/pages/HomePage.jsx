@@ -4,17 +4,19 @@ import Appreciation from '../organisms/Appreciation';
 import ProductList from '../organisms/ProductList';
 import Gift from '../organisms/Gift';
 import Popular from '../organisms/Popular';
+import UniqueFinds from '../organisms/UniqueFinds';
 
 const HomePage = () => {
   return (
     <>
-      <div className="flex-col">
+      <div className="flex flex-col">
         <Navbar />
         <Hero />
         <Appreciation />
         <ProductList />
         <Gift />
-        <Popular/>
+        <Popular />
+        <UniqueFinds/>
       </div>
     </>
   );
