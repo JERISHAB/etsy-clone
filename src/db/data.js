@@ -15,12 +15,29 @@ import g3 from "../assets/images/gifts/g3.png";
 import g4 from "../assets/images/gifts/g4.png";
 import g5 from "../assets/images/gifts/g5.png";
 
-import u1 from "../assets/images/unique-finds/u1.png";
-import u2 from "../assets/images/unique-finds/u2.png";
-import u3 from "../assets/images/unique-finds/u3.png";
-import u4 from "../assets/images/unique-finds/u4.png";
-import u5 from "../assets/images/unique-finds/u5.png";
-import u6 from "../assets/images/unique-finds/u6.png";
+import u1 from "../assets/images/popular/u1.png";
+import u2 from "../assets/images/popular/u2.png";
+import u3 from "../assets/images/popular/u3.png";
+import u4 from "../assets/images/popular/u4.png";
+import u5 from "../assets/images/popular/u5.png";
+import u6 from "../assets/images/popular/u6.png";
+
+import f1 from "../assets/images/unique-finds/f1.png";
+import f2 from "../assets/images/unique-finds/f2.png";
+import f3 from "../assets/images/unique-finds/f3.png";
+import f4 from "../assets/images/unique-finds/f4.png";
+import f5 from "../assets/images/unique-finds/f5.png";
+import f6 from "../assets/images/unique-finds/f6.png";
+
+import s1 from "../assets/images/stantout/s1.png";
+import s2 from "../assets/images/stantout/s2.png";
+import s3 from "../assets/images/stantout/s3.png";
+import s4 from "../assets/images/stantout/s4.png";
+import s5 from "../assets/images/stantout/s5.png";
+
+import d1 from "../assets/images/discover/d1.png";
+import d2 from "../assets/images/discover/d2.png";
+import d3 from "../assets/images/discover/d3.png";
 
 
 
@@ -40,6 +57,86 @@ export const teacherAppreciationGifts = [
     id: 3,
     title: "Relaxation Gifts",
     image:  apr3 ,
+  },
+];
+
+export const DiscoverList = [
+  {
+    id: 1,
+    title: "HazelCraftsStore",
+    image:  d1,
+    logo:  d1,
+  },
+  {
+    id: 2,
+    title: "MajesticMitus",
+    image: d2 ,
+    logo: d2 ,
+  },
+  {
+    id: 3,
+    title: "GUNJANGEMSEMPORIUM",
+    image:  d3 ,
+    logo:  d3 ,
+  },
+];
+
+export const StandoutList = [
+  {
+    id: 1,
+    title: "Weddings",
+    discount: 'up to 30% off',
+    image:  s1,
+  },
+  {
+    id: 2,
+    title: "Personalised Finds",
+    discount: 'up to 30% off',
+    image: s2 ,
+  },
+  {
+    id: 3,
+    title: "Outdoor Games",
+    discount: 'up to 30% off',
+    image:  s3 ,
+  },
+  {
+    id: 4,
+    title: "Summer Style",
+    discount: 'up to 30% off',
+    image:  s4 ,
+  },
+  {
+    id: 5,
+    title: "Birthday Gifts",
+    discount: 'up to 30% off',
+    image:  s5 ,
+  },
+];
+export const BlogList = [
+  {
+    id: 1,
+    title: "Shopping Guides",
+    desc: "9 Comfy Throws for Cosy Autumn Vibes",
+    detail:
+      "Embrace the snuggling season with stylish throws that will warm your hearts.",
+    image: s1,
+  },
+  {
+    id: 2,
+    title: "Shopping Guides",
+    desc: "14 Beautiful Bags That Express Your Unique Style",
+    detail:
+      "Amp up your fashion game with bags that perfectly match your aesthetic.",
+    image: s2,
+  },
+  {
+    id: 3,
+    title: "Gift Ideas",
+    desc: "The Best Gift Ideas for Kids of All Ages",
+    detail:
+      "Shop the sweetest surprises for all little ones in your family–these gifts for kids will definitely earn you some brownie points.",
+    image: s3,
   },
 ];
 
@@ -75,7 +172,7 @@ export const GiftsData = [
 export const PopularList = [
   {
     id: 1,
-    title: "gender-neutral adult t-shirts",
+    title: "Gender-neutral adult t-shirts",
     image: u1,
   },
   {
@@ -104,6 +201,7 @@ export const PopularList = [
     image: u6,
   },
 ];
+
 
 
 export const ProductListData = [
@@ -150,5 +248,59 @@ export const ProductListData = [
     image: p5,
     price: 949,
     originalPrice: null,
+  },
+];
+
+
+export const UniqueListData = [
+  {
+    id: 3,
+    image: f3,
+    price: 9948,
+    originalPrice: null,
+    c_span:3,
+    r_span:3
+  },
+  {
+    id: 5,
+    image: f5,
+    price: 949,
+    originalPrice: 10436,
+    c_span:2,
+    r_span:3
+  },
+  {
+    id: 2,
+    image: f2,
+    price: 10362,
+    originalPrice: 12953,
+    c_span:3,
+    r_span:3
+  },
+
+  {
+    id: 1,
+    image: f1,
+    price: 10787,
+    originalPrice: 17979,
+    c_span:4,
+    r_span:4
+  },
+  {
+    id: 4,
+    image: f4,
+    price: 13368,
+    originalPrice: null,
+    c_span:3,
+    r_span:4
+  },
+
+  {
+    id: 0,
+    image: f6,
+    price: 7751,
+    originalPrice: 9689,
+    c_span:2,
+    r_span:4
   },
 ];
