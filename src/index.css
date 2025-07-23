@@ -1,52 +1,38 @@
 @import "tailwindcss";
 
-
-
-/* @font-face {
-    font-family: Graphik Webfont;
-    src: url(/assets/type/Graphik-Medium-Web.woff2)format("woff2"), url(/assets/type/Graphik-Medium-Web.woff)format("woff");
+@font-face {
+    font-family: 'CustomGuardian';
+    src: url('./assets/type/Guardian-EgypTT-Light.woff2') format('woff2');
+    font-weight: 300;
     font-style: normal;
-    font-weight: 500;
-    font-stretch: 100%;
     font-display: swap;
-    ascent-override: 92%;
-    descent-override: 22%
 }
 
 @font-face {
-    font-family: Graphik Webfont;
-    src: url(/assets/type/GraphikCyr-Medium-Web.woff2)format("woff2"), url(/assets/type/GraphikCyr-Medium-Web.woff)format("woff");
-    font-style: normal;
-    font-weight: 500;
-    font-stretch: 100%;
-    font-display: swap;
-    ascent-override: 92%;
-    descent-override: 22%;
-    unicode-range: U+4??
-}
-
-@font-face {
-    font-family: Graphik Webfont;
-    src: url(/assets/type/Graphik-Regular-Web.woff2)format("woff2"), url(/assets/type/Graphik-Regular-Web.woff)format("woff");
-    font-style: normal;
+    font-family: 'CustomGraphik';
+    src: url('./assets/type/Graphik-Regular-Web.woff2') format('woff2');
     font-weight: 400;
-    font-stretch: 100%;
+    font-style: normal;
     font-display: swap;
-    ascent-override: 92%;
-    descent-override: 22%
 }
 
 @font-face {
-    font-family: Graphik Webfont;
-    src: url(/assets/type/GraphikCyr-Regular-Web.woff2)format("woff2"), url(/assets/type/GraphikCyr-Regular-Web.woff)format("woff");
+    font-family: 'CustomGraphik';
+    src: url('./assets/type/Graphik-Medium-Web.woff2') format('woff2');
+    font-weight: 500;
     font-style: normal;
-    font-weight: 400;
-    font-stretch: 100%;
     font-display: swap;
-    ascent-override: 92%;
-    descent-override: 22%;
-    unicode-range: U+4??
-} */
+}
+
+.font-cg {
+    font-family: 'CustomGuardian', serif;
+}
+
+.font-cw {
+    font-family: 'CustomGraphik', sans-serif;
+}
+
+
 
 
 .font-g {
@@ -71,9 +57,21 @@
     scrollbar-width: none;
 }
 
+.move-left> div:nth-child(odd){
+    position: relative;
+    right: 1px;
+}
+
 
 @media (min-width: 1024px) {
     .curved-top {
         clip-path: none;
     }
+
+        .move-left>div:nth-child(odd) {
+            position: relative;
+            right: 0;
+        }
+
+
 }

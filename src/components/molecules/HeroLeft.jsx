@@ -3,7 +3,7 @@ import "../../index.css";
 
 const HeroLeft = () => {
   return (
-    <div className="flex flex-col rounded-[12px] bg-amber-100 pt-4 lg:h-100 lg:w-[898px] lg:flex-row lg:pt-0 ">
+    <div className="flex flex-col rounded-[12px] bg-[#FFFBD8] pt-4 lg:h-100 lg:w-[898px] lg:flex-row lg:pt-0">
       <div className="mb-6 flex flex-col items-center lg:w-2/5 lg:justify-start lg:pt-27.25 lg:pl-0.5">
         <p className="font-g block text-[35.01px] lg:text-[51.01px]">
           Back to school
@@ -17,7 +17,7 @@ const HeroLeft = () => {
           <img
             src={toSchool}
             alt=""
-            className="rounded-b-[12px] lg:relative lg:bottom-3.25 lg:h-[105%] lg:w-[100%] lg:rounded-r-[12px] lg:rounded-bl-[0px]"
+            className="lg:[aspect-ratio:1.2592] rounded-b-[12px] lg:relative lg:bottom-3.25  lg:w-[100%] lg:rounded-r-[12px] lg:rounded-bl-[0px]"
           />
         </div>
 
@@ -31,3 +31,4 @@ const HeroLeft = () => {
 };
 
 export default HeroLeft;
+ 

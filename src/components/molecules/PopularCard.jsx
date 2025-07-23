@@ -8,7 +8,7 @@ const PopularCard = ({ image, title }) => {
         alt={title}
         className="h-[141px] rounded-xl object-cover lg:h-[245px]"
       />
-      <p className="mt-2  tracking-[0.08px] font-w text-[16px] font-[500] leading-[1.25] ">
+      <p className="mt-1.5  tracking-[0.08px] font-w text-[16px] font-[500] leading-[1.25] ">
         {title}
       </p>
     </div>

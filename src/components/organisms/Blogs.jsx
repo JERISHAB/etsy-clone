@@ -5,12 +5,12 @@ import { BlogList } from '../../db/data';
 
 const Blogs = () => {
   return (
-    <div className="mt-15 flex flex-col gap-4 px-3 lg:px-14">
-      <span className="font-w flex gap-4 text-[18px] font-[700]">
+    <div className="mt-24.75 flex flex-col gap-2.75 lg:gap-4 px-3 lg:px-14">
+      <span className=" font-cw tracking-[.09px] flex gap-2.5 text-[18px] lg:text-[27.01px] font-[500]">
         Fresh from the blog
-        <img src={arrow} alt="" className="pt-1" />
+        <img src={arrow} alt="" className="pt-0.5" />
       </span>
-      <div className=" flex flex-col md:flex-row gap-5">
+      <div className=" flex flex-col md:flex-row gap-3 lg:gap-5">
         {BlogList.map((item) => (
           <BlogCard
             key={item.id}

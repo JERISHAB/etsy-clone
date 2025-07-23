@@ -5,10 +5,10 @@ import FooterFlag from "../atoms/FooterFlag";
 
 
 const FooterBottom = () => {
-  return (
-    <div className="bg-[#1c1b1b] px-4 py-3 text-sm text-white md:text-[12.99px]">
+  return ( 
+    <div className="font-cw bg-[#1c1b1b] px-4 py-3 text-sm text-white md:text-[12.99px]">
       <div className="flex flex-col items-center justify-between gap-2 md:flex-row">
-        <div className="flex items-center gap-4">
+        <div className="flex font-[500] items-center gap-4">
           <span role="img" aria-label="flag">
             <FooterFlag icon={flag} />
           </span>

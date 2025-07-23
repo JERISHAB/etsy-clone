@@ -23,14 +23,14 @@ const HomePage = () => {
         <ProductList />
         <Gift />
         <Popular />
-        <UniqueFinds />
+        <UniqueFinds />  
         <Standout />
         <Discover />
         <Blogs />
         <WhatsEtsy />
         <MailBox />
         <Footer/>
-      </div>
+      </div>  
     </>
   );
 }

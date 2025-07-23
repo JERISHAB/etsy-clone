@@ -8,10 +8,10 @@ import YtLogo from "../atoms/YtLogo";
 
 const FooterRight = () => {
   return (
-    <div className="font-w grid w-full grid-cols-1 gap-2 px-3 py-3 text-[16px] md:order-2 md:grid-cols-4">
+    <div className="font-cw grid w-full grid-cols-1 gap-2 px-3 py-3 md:py-10 text-[16px] md:order-2 md:grid-cols-4">
       <div className="flex justify-between md:block">
-        <h4 className="mb-2 font-semibold">Shop</h4>
-        <ul className=" md:text-[12.99px] hidden space-y-1 md:block">
+        <h4 className="mb-2 font-[500]">Shop</h4>
+        <ul className=" md:text-[12.99px] hidden space-y-3 md:block">
           <li>Gift cards</li>
           <li>Etsy Registry</li>
           <li>Sitemap</li>
@@ -23,8 +23,8 @@ const FooterRight = () => {
         <DownArrow />
       </div>
       <div className="flex justify-between md:block">
-        <h4 className="mb-2 font-semibold">Sell</h4>
-        <ul className=" md:text-[12.99px] hidden space-y-1 md:block">
+        <h4 className="mb-2 font-[500]">Sell</h4>
+        <ul className=" md:text-[12.99px] hidden space-y-3 md:block">
           <li>Sell on Etsy</li>
           <li>Teams</li>
           <li>Forums</li>
@@ -33,8 +33,8 @@ const FooterRight = () => {
         <DownArrow />
       </div>
       <div className="flex justify-between md:block">
-        <h4 className="mb-2 font-semibold">About</h4>
-        <ul className=" md:text-[12.99px] hidden space-y-1 md:block">
+        <h4 className="mb-2 font-[500]">About</h4>
+        <ul className=" md:text-[12.99px] hidden space-y-3 md:block">
           <li>Etsy, Inc.</li>
           <li>Policies</li>
           <li>Investors</li>
@@ -47,8 +47,8 @@ const FooterRight = () => {
       </div>
       <div className="flex flex-col md:block">
         <div className="flex w-full justify-between md:block">
-          <h4 className="mb-2 font-semibold">Help</h4>
-          <ul className=" md:text-[12.99px] mb-4 hidden space-y-1 md:block">
+          <h4 className="mb-2 font-[500]">Help</h4>
+          <ul className=" md:text-[12.99px] mb-4 hidden space-y-3 md:block">
             <li className="">Help Centre</li>
             <li className="">Privacy settings</li>
           </ul>

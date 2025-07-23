@@ -8,7 +8,7 @@ import FooterBottom from '../molecules/FooterBottom';
      return (
        <div>
          <FooterTop />
-         <div className="flex flex-col justify-between gap-10 bg-[#2f3bd6] text-white md:flex-row">
+         <div className="flex flex-col justify-between gap-10 bg-[#2f3bd6]  text-white md:flex-row">
            <FooterRight />
            <FooterLeft />
          </div>
