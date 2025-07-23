@@ -7,7 +7,7 @@ const UniqueFinds = () => {
   return (
     <div className="mt-4 px-3 lg:flex lg:flex-col lg:gap-4 lg:p-14">
       <div className="grid grid-cols-12 gap-4 lg:grid-rows-7">
-        <div className="col-span-12 mb-4 flex flex-col items-center lg:row-span-3 lg:col-span-4 lg:items-start lg:justify-center">
+        <div className="col-span-12 mb-4 flex flex-col items-center lg:col-span-4 lg:row-span-3 lg:items-start lg:justify-center">
           <span className="font-w text-[12.99px] leading-[1.4] font-[400] tracking-[.1299px] lg:text-[#595959]">
             Editors' Picks
           </span>
@@ -25,12 +25,12 @@ const UniqueFinds = () => {
             ogPrice={product.originalPrice}
             discountPrice={product.price}
             image={product.image}
-            c_span={product.c_span} 
+            c_span={product.c_span}
             r_span={product.r_span}
           />
         ))}
 
-        <div className="font-w hidden items-center text-[16px] tracking-[.16px] lg:col-span-3 row-span-4 lg:flex">
+        <div className="font-w row-span-4 hidden items-center text-[16px] tracking-[.16px] lg:col-span-3 lg:flex">
           Treat yourself to these easy, breezy designs that make every day feel
           like a holiday
         </div>

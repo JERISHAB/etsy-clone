@@ -11,6 +11,7 @@ import Blogs from '../organisms/Blogs';
 import WhatsEtsy from '../organisms/WhatsEtsy';
 import MailBox from '../organisms/MailBox';
 import Footer from '../organisms/Footer';
+import DemoParent from '../molecules/DemoParent';
 
 const HomePage = () => {
   return (
