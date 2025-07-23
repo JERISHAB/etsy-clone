@@ -41,6 +41,34 @@ import d3 from "../assets/images/discover/d3.png";
 
 
 
+export const questionAnswerList = [
+  {
+    id: 1,
+    title: "Why choose Etsy?",
+    content:
+      "Etsy is where people come together to make, sell, buy, and collect unique items. We’re also a community pushing for positive change for small businesses, people, and the planet. Here are some of the ways we’re making a positive impact, together:",
+  },
+  {
+    id: 2,
+    title: "What can you shop on Etsy?",
+    content:
+      "The imagination of Etsy sellers can run far and wide, which makes our platform a home to more than 100 million active listings across home, style, and gifts. Some of our popular categories include:",
+  },
+  {
+    id: 3,
+    title: "How to buy on Etsy?",
+    content:
+      "If you’re looking for something specific, start by putting in the keywords in our search and then using filters to narrow down the results. You can even message the sellers with any questions or requests you may have before placing an order with them.",
+  },
+  {
+    id: 4,
+    title: "How to sell on Etsy?",
+    content:
+      "You can sell handmade goods, vintage items, and craft supplies on Etsy. With low fees, powerful tools, and support and education, we help creative entrepreneurs start, manage, and scale their businesses. Want to open a shop? All it takes is Rs. 16* to ",
+  },
+];
+
+
 
 export const teacherAppreciationGifts = [
   {
@@ -254,7 +282,7 @@ export const ProductListData = [
 
 export const UniqueListData = [
   {
-    id: 3,
+    id: 1,
     image: f3,
     price: 9948,
     originalPrice: null,
@@ -262,7 +290,7 @@ export const UniqueListData = [
     r_span:3
   },
   {
-    id: 5,
+    id: 2,
     image: f5,
     price: 949,
     originalPrice: 10436,
@@ -270,7 +298,7 @@ export const UniqueListData = [
     r_span:3
   },
   {
-    id: 2,
+    id: 3,
     image: f2,
     price: 10362,
     originalPrice: 12953,
@@ -279,7 +307,7 @@ export const UniqueListData = [
   },
 
   {
-    id: 1,
+    id: 4,
     image: f1,
     price: 10787,
     originalPrice: 17979,
@@ -287,7 +315,7 @@ export const UniqueListData = [
     r_span:4
   },
   {
-    id: 4,
+    id: 5,
     image: f4,
     price: 13368,
     originalPrice: null,
@@ -296,7 +324,7 @@ export const UniqueListData = [
   },
 
   {
-    id: 0,
+    id: 6,
     image: f6,
     price: 7751,
     originalPrice: 9689,
@@ -304,3 +332,5 @@ export const UniqueListData = [
     r_span:4
   },
 ];
+
+

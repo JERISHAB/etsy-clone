@@ -25,7 +25,7 @@ const UniqueFinds = () => {
             ogPrice={product.originalPrice}
             discountPrice={product.price}
             image={product.image}
-            c_span={product.c_span}
+            c_span={product.c_span} 
             r_span={product.r_span}
           />
         ))}
@@ -40,7 +40,7 @@ const UniqueFinds = () => {
         </div>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default UniqueFinds;

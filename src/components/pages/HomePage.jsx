@@ -9,12 +9,14 @@ import Standout from '../organisms/Standout';
 import Discover from '../organisms/Discover';
 import Blogs from '../organisms/Blogs';
 import WhatsEtsy from '../organisms/WhatsEtsy';
+import MailBox from '../organisms/MailBox';
+import Footer from '../organisms/Footer';
 
 const HomePage = () => {
   return (
     <>
       <div className="flex flex-col">
-        <Navbar />
+        <Navbar/>
         <Hero />
         <Appreciation />
         <ProductList />
@@ -24,7 +26,9 @@ const HomePage = () => {
         <Standout />
         <Discover />
         <Blogs />
-        <WhatsEtsy/>
+        <WhatsEtsy />
+        <MailBox />
+        <Footer/>
       </div>
     </>
   );
