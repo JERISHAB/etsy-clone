@@ -37,8 +37,8 @@ const FooterBottom = () => {
           </a>
         </div>
       </div>
-    </div>
+    </div> 
   );
-};
+};      
 
 export default FooterBottom;
