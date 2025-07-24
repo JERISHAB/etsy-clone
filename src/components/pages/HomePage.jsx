@@ -9,23 +9,28 @@ import Standout from '../organisms/Standout';
 import Discover from '../organisms/Discover';
 import Blogs from '../organisms/Blogs';
 import WhatsEtsy from '../organisms/WhatsEtsy';
+import MailBox from '../organisms/MailBox';
+import Footer from '../organisms/Footer';
+import DemoParent from '../molecules/DemoParent';
 
 const HomePage = () => {
   return (
     <>
       <div className="flex flex-col">
-        <Navbar />
+        <Navbar/>
         <Hero />
         <Appreciation />
         <ProductList />
         <Gift />
         <Popular />
-        <UniqueFinds />
+        <UniqueFinds />  
         <Standout />
         <Discover />
         <Blogs />
-        <WhatsEtsy/>
-      </div>
+        <WhatsEtsy />
+        <MailBox />
+        <Footer/>
+      </div>  
     </>
   );
 }

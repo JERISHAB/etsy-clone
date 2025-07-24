@@ -4,7 +4,7 @@ import BasicHoverCard from "../molecules/BasicHoverCard.jsx";
 
 const ProductList = () => {
   return (
-    <div className="mt-4.5 grid grid-cols-2 lg:grid-cols-6 gap-4 px-3 md:grid-cols-3 lg:px-14">
+    <div className="mt-4.5 grid grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-4.5 px-3 md:grid-cols-3 lg:px-14">
       {ProductListData.slice(0, 4).map((product) => (
         <BasicHoverCard
           key={product.id}

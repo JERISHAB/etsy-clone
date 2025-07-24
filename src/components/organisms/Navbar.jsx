@@ -20,7 +20,7 @@ const Navbar = () => {
         <SearchBox view="sm" />
         <div className="mr-3.75 flex items-center justify-end pb-0.5 lg:mr-0 lg:pb-0">
           <NavTextBtn headName="Sign in" />
-          <div className="ml-8.5 flex items-center justify-end gap-5.25 lg:ml-3 lg:gap-0">
+          <div className="ml-8.5 flex items-center justify-end gap-5.25 lg:ml-3 lg:gap-0 move-left">
             <NavIconBtn icon={flag} border={true} />
             <NavIconBtn icon={heart} />
             <NavIconBtn icon={gift} />

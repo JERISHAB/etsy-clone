@@ -11,7 +11,7 @@ const Hero = () => {
         <img
           src={printables}
           alt="Printables"
-          className="h-auto w-full rounded-xl object-cover"
+          className=" h-auto w-full rounded-xl object-cover"
         />
         <div className="absolute top-1/2 h-1/2 w-full rounded-b-xl bg-gradient-to-t from-black/60 to-transparent"></div>
 
