@@ -8,9 +8,9 @@ import YtLogo from "../atoms/YtLogo";
 
 const FooterRight = () => {
   return (
-    <div className="font-cw grid w-full grid-cols-1 gap-2 px-3 py-3 md:py-10 text-[16px] md:order-2 md:grid-cols-4">
+    <div className="font-cw grid w-full grid-cols-1 gap-4 md:gap-0 px-3 py-3 md:py-10 text-[16px] md:order-2 md:grid-cols-4">
       <div className="flex justify-between md:block">
-        <h4 className="mb-2 font-[500]">Shop</h4>
+        <h4 className="mb-2 md:mb-3 font-[500]">Shop</h4>
         <ul className=" md:text-[12.99px] hidden space-y-3 md:block">
           <li>Gift cards</li>
           <li>Etsy Registry</li>
@@ -54,7 +54,7 @@ const FooterRight = () => {
           </ul>
           <DownArrow />
         </div>
-        <div className="flex flex-wrap md:justify-start justify-center gap-5 mt-5">
+        <div className="flex flex-wrap md:justify-start justify-center gap-4 lg:gap-5  mt-5">
           <InstaLogo />
           <FbLogo/>
           <PintrestLogo/>

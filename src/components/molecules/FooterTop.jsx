@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterTop = () => {
   return (
-    <div className="flex flex-col md:flex-row  items-center justify-center gap-2 bg-[#4367d3] px-4 py-3 text-center text-white">
+    <div className="flex flex-col md:flex-row  items-center justify-center gap-2 bg-[#4367d3] px-4 py-3 lg:py-6 text-center text-white">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 96 96"

@@ -5,19 +5,19 @@ import FooterFlag from "../atoms/FooterFlag";
 
 
 const FooterBottom = () => {
-  return ( 
-    <div className="font-cw bg-[#1c1b1b] px-4 py-3 text-sm text-white md:text-[12.99px]">
+  return (
+    <div className="font-cw bg-[#1c1b1b] px-4 md:px-15 py-3 text-sm text-[12.99px] text-white pb-2">
       <div className="flex flex-col items-center justify-between gap-2 md:flex-row">
-        <div className="flex font-[500] items-center gap-4">
+        <div className="flex items-center gap-2.5 py-4.5 font-[500]">
           <span role="img" aria-label="flag">
             <FooterFlag icon={flag} />
           </span>
           <span>India</span>
-          <span>| English (IN)</span>
-          <span>| ₹ (INR)</span>
+          <span>|&nbsp;&nbsp; English (IN)</span>
+          <span>|&nbsp;&nbsp; ₹ (INR)</span>
         </div>
-        <div className="flex flex-wrap items-center justify-center gap-3">
-          <span className="w-full text-center md:w-auto md:text-left">
+        <div className="flex flex-wrap items-center justify-center gap-3 md:gap-5.5">
+          <span className="w-full text-center md:w-auto py-1 md:py-0 md:text-left">
             © 2025 Etsy, Inc.
           </span>
           <a href="#" className="underline">
